@@ -8,6 +8,11 @@
 .text-light-gray {
   color: #727272;
 }
+.section-title {
+  color: #131313;
+  font: size 3rem;
+  font-weight: 700px;
+}
 
 .btn-primary {
 }
@@ -21,11 +26,6 @@ nav .team-container {
   justify-content: space-between;
 }
 
-.nav-title {
-  color: #131313;
-  font: size 3rem;
-  font-weight: 700px;
-}
 nav > ul {
   display: flex;
 }
@@ -124,5 +124,9 @@ main {
   }
   .teams-img-container {
     grid-template-columns: 1fr;
+  }
+  .teams-contant {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
